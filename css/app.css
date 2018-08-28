@@ -1,6 +1,6 @@
 /* Google Fonts */
 
-@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+@import url('https://fonts.googleapis.com/css?family=Metamorphous');
 
 html {
     box-sizing: border-box;
@@ -23,7 +23,7 @@ body {
 body {
 
     /* Background pattern from Subtle Patterns */
-    font-family: 'Sawarabi Mincho', sans-serif;
+    font-family: 'Metamorphous', cursive;
 }
 
 .container {
@@ -31,27 +31,27 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #fff url('../img/abstract.jpg') no-repeat;
+    background: black url('../img/abstract.jpg') no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 h1 {
-    font-family: 'Sawarabi Mincho', sans-serif;
+    font-family: 'Metamorphous', cursive;
+    text-align: center;
     font-weight: 300;
     letter-spacing: 3px;
     font-size: 2.5em;
-    background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: green;
 }
 
 h2 {
-    font-family: 'Sawarabi Mincho', sans-serif;
+    font-family: 'Metamorphous', cursive;
     font-weight: 200;
+    color: #e04747;
+    text-align: center;
     letter-spacing: 2px;
     font-size: 1.5em;
-    color: navy;
     font-style: italic;
 }
 
@@ -61,15 +61,15 @@ h2 {
 .deck {
     width: 660px;
     min-height: 680px;
-    background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
+    background: linear-gradient(160deg, green 0%, blue 150%);
     padding: 32px;
-    border-radius: 10px;
+    border-radius: 50px;
     box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 3em;
+    margin: 0 0 1.5em;
 }
 
 .card {
@@ -94,7 +94,7 @@ h2 {
 
 .deck .card.open {
     transform: rotateY(0);
-    background: #02b3e4;
+    background: #67aecd;
     cursor: default;
 }
 
@@ -112,7 +112,7 @@ h2 {
 }
 
 .deck .card.no-match {
-    background-color: #fa7280;
+    background-color: #e04747;
 }
 
 /* Score Panel Styling */
@@ -125,7 +125,7 @@ h2 {
     text-align: left;
     padding: 20px;
     margin: 20px;
-    background: #0097b2;
+    background: linear-gradient(160deg, green 0%, blue 150%);
     color: #fff;
     font-weight: 700;
     border-radius: 8px;
@@ -160,7 +160,7 @@ i.fa-sync {
 }
 
 .restart i {
-    background-color: #6fc4d3;
+    background-color: green;
     color: #fff;
     padding: 10px;
     border: 1px solid #ccc;
@@ -169,7 +169,8 @@ i.fa-sync {
 
 .restart i:hover {
     background-color: #fff;
-    color: #6fc4d3;
+    color: black;
+    /* arrow color */
     transition: 1s;
 }
 
@@ -218,4 +219,10 @@ footer {
     text-align: center;
     text-shadow: 1px 1px #888;
     font-style: italic;
+    color: white;
+    background: black;
+}
+
+i.fa-heart {
+    color: red;
 }
