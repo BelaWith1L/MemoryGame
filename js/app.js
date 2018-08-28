@@ -1,5 +1,5 @@
 // List of all cards of the deck 
-const cardDesigns = ['grin-hearts', 'kiss-wink-heart', 'heart', 'sun', 'coffee', 'umbrella-beach', 'globe-africa', 'globe-americas', 'grin-hearts', 'kiss-wink-heart', 'heart', 'sun', 'coffee', 'umbrella-beach', 'globe-africa', 'globe-americas', ];
+const cardDesigns = ['dove', 'dove', 'heart', 'heart', 'gamepad', 'gamepad', 'drum', 'drum', 'headphones', 'headphones', 'bicycle', 'bicycle', 'cut', 'cut', 'grin-tears', 'grin-tears', ];
 const deckOfCards = document.querySelector('.deck');
 const restart = document.querySelector('.restart');
 
