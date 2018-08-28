@@ -3,7 +3,7 @@ Grow With Google/Udacity FEND Memory Game Project 2
 
 ## Table of Contents
 
-* [Project Details]{#projectdetails}
+* [Project Details](#projectdetails)
 * [Instructions](#instructions)
 * [Contributing](#contributing)
 
