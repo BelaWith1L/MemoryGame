@@ -19,10 +19,10 @@ If you'd like to view the detailed instructions,  you may look at the project in
 2. Click on another card in the deck to reveal its image.
 3. If the cards match, they change to a light green color and stay revealed.  If they do not match, the turn red and are flipped back over.
 4. Using your memory, continue to reveal cards to form matches until all cards are correctly matched.
-5. At this point, a congratulations message will appear, along with your time played and a star-rating.
-    a. 16 moves or less = 3 stars
-    b. 17-23 moves = 2 stars
-    c. 24 or more moves = 1 star
+5. At this point, a congratulations message will appear, along with your time played and a star-rating. 
+    <ol><li>a.. 16 moves or less = 3 stars</li>
+    <li>b. 17-23 moves = 2 stars</li>
+    <li>c. 24 or more moves = 1 star</li></ol>
 6. To play the game again, click the spinning button.
 7. If at any time you'd like to start over, you may click the spinning button above the deck, in the score card area.
 
