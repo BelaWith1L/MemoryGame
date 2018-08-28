@@ -1,6 +1,8 @@
 # Sami's Memory Game 
 Grow With Google/Udacity FEND Memory Game Project 2
 
+Click to play:  [Sami's Memory Game](https://belawith1l.github.io/MemoryGame/).
+
 ## Table of Contents
 
 * [Project Details](#projectdetails)
@@ -29,4 +31,3 @@ If you'd like to view the detailed instructions,  you may look at the project in
 ## Contributing
 
 This repository began with the starter code for _all_ Udacity students and was personalized and developed soley by myself.  Therefore, no pull requests are accepted.
-
