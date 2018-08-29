@@ -96,6 +96,7 @@ h2 {
     transform: rotateY(0);
     background: #67aecd;
     cursor: default;
+    pointer-events: none;
 }
 
 .deck .card.show {
